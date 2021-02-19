@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: #ffe227; */
+  background-image: linear-gradient(
+    270.97deg,
+    #ffe580 -21.36%,
+    #ff7571 -2.45%,
+    #ea5dad 26.84%,
+    #c2a0fd 64.15%,
+    #3bf0e4 108.29%,
+    #b2f4b6 159.03%
+  );
+  font-family: 'Ovo', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 10px;
+}
+
+.testimonial-container {
+  background-color: #fff;
+  color: #000;
+  border-radius: 15px;
+  margin: 20px auto;
+  padding: 50px 40px;
+  max-width: 768px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progress-bar {
+  background-image: linear-gradient(
+    270.97deg,
+    #ffe580 -21.36%,
+    #ff7571 -2.45%,
+    #ea5dad 26.84%,
+    #c2a0fd 64.15%,
+    #3bf0e4 108.29%,
+    #b2f4b6 159.03%
+  );
+  width: 100%;
+  height: 4px;
+  animation: grow 10s linear infinite;
+  transform-origin: left;
+  margin-bottom: 1em;
+}
+
+audio {
+  outline: none;
+}
+
+p {
+  color: #808080;
+}
+
+@keyframes grow {
+  0% {
+    transform: scaleX(0);
+  }
+}
+@media (max-width: 768px) {
+  .testimonial-container {
+    padding: 20px 30px;
+  }
+}
