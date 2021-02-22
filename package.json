@@ -1,0 +1,23 @@
+{
+  "name": "Box_Switcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwhocodes/Box_Switcher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "http://mwhocodes.github.io/Box_Switcher",
+  "bugs": {
+    "url": "https://github.com/mwhocodes/Box_Switcher/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
